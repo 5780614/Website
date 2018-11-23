@@ -1,0 +1,752 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300i,400,500,600i,700,800i');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #212121
+}
+
+section {
+  margin: 195px 0;
+}
+
+.name {
+  position: relative;
+  left: 200px;
+  top: 50px;
+  display: inline-block;
+}
+
+.Hi {
+  position: relative;
+  top: 50px;
+}
+
+.Hi-Im {
+  font-style: italic;
+  font-weight: 300;
+  color: #515151;
+}
+
+.firstName {
+  /* medium */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 80px;
+  color: #515151;
+}
+
+.lastName {
+  /* semi-bold italic */
+  font-style: italic;
+  font-weight: 600;
+  font-size: 80px;
+  color: #515151;
+}
+
+.firstNameDiv {
+  position: relative;
+  top: 30px;
+}
+
+.lastNameDiv {
+  position: relative;
+}
+
+.nickNameDiv {
+  position: relative;
+  top: 20px;
+}
+
+.nickName {
+  /* light italic */
+  font-style: italic;
+  font-weight: 300;
+  color: #515151;
+  font-size: 20px;
+}
+
+.bannerBar {
+  width: 60px;
+  height: 4px;
+  background-color: #FFAF59;
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.IoT {
+  position: relative;
+  top: 100px;
+}
+
+.IoTDesign {
+  font-size: 40px;
+  color: #515151;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.banner {
+  /* background-image: linear-gradient(-225deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.3) 40%),url(file:///Users/michael/Desktop/Resume%20&%20Website/Website/Landing%20Page%20Pictures%20for%20HTML/bg.png); */
+  background: url(images/bg.png) no-repeat center center fixed;
+  background-size: cover !important;
+  height: 100vh;
+  position: relative;
+}
+
+p {
+  font-size: 35px;
+  font-style: italic;
+}
+
+.links span {
+  margin-right: 100px;
+  position: relative;
+  top: -220px;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.nav-item{
+  display: flex;
+flex-direction: column;
+align-items: left;
+}
+
+.fa-caret-down{
+  color: #FFAF59;
+}
+
+.header-items{
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  margin-left: 200px;
+  padding-top: 40px;
+}
+
+.header-item2{
+  padding-top: 100px;
+}
+
+.header-item3{
+  padding-top: 120px;
+}
+
+
+.About {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.Projects {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.Contact {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+/* scroll */
+
+.scroll {
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  margin-right: 370px;
+}
+.scroll-text
+{
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  color: #FFAF59;
+  transform: rotate(-90deg);
+}
+
+.scrollBar {
+  width: 50px;
+  height: 2px;
+  background-color: #FFAF59;
+  display: inline-block;
+  transform: rotate(-90deg);
+  margin-bottom: 30px;
+}
+
+/* SECTION 1 */
+#about {
+  height: vh100;
+}
+
+.about-content-ONE {
+  /* medium */
+  font-style: normal;
+  font-weight: 500;
+}
+
+.about-content-whole {
+  /* regular */
+  font-style: normal;
+  font-weight: 400;
+}
+
+.about-content-aboutme {
+  font-style: italic;
+  font-weight: 800;
+}
+
+.about-content-paragraph {
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 60px;
+}
+
+.card.about-card {
+  border: none;
+  margin-right: 100px;
+  margin-top: 75px;
+}
+
+.avatar {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: solid 1px black;
+}
+
+/* SECTION 2 */
+#projectONE {
+  height: vh100;
+}
+
+.autonomous-Bar {
+  width: 60px;
+  height: 4px;
+  background-color: #FFAF59;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.autonomous-header {
+  font-style: normal;
+  font-weight: 700;
+}
+
+.autonomous-body {
+  font-style: normal;
+  font-weight: 400;
+  max-width: 250px;
+  padding-top: 30px;
+}
+
+.autonomous-link {
+  font-style: italic;
+  font-weight: 300;
+  margin-left: 160px;
+}
+
+.project-autonomous-pic {
+  position: relative;
+  right: 280px;
+  width: 100%;
+  height: auto;
+}
+
+.project-autonomous-pic-div {
+  position: absolute;
+  margin-top: 210px;
+}
+
+/* SECTION 3 */
+#projectTWO {
+  height: vh100;
+  margin-top: 600px;
+}
+
+.wellness-header {
+  font-style: normal;
+  font-weight: 700;
+  margin-left: -8px;
+}
+
+.wellness-Bar {
+  width: 60px;
+  height: 4px;
+  background-color: #8A4CFF;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 300px;
+}
+
+.wellness-body {
+  font-style: normal;
+  font-weight: 400;
+  max-width: 250px;
+  padding-top: 30px;
+}
+
+.wellness-link {
+  font-style: italic;
+  font-weight: 300;
+  margin-left: 160px;
+}
+
+.project-wellness-pic-div {
+  position: absolute;
+  margin-top: 190px;
+}
+
+.project-wellness-pic {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+/* SECTION 4 */
+#projectTHREE {
+  height: vh100;
+  margin-top: 600px;
+}
+
+.home-header {
+  font-style: normal;
+  font-weight: 700;
+}
+
+.home-Bar {
+  width: 60px;
+  height: 4px;
+  background-color: #DE3525;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.home-body {
+  font-style: normal;
+  font-weight: 400;
+  max-width: 250px;
+  padding-top: 30px;
+}
+
+.home-link {
+  font-style: italic;
+  font-weight: 300;
+  margin-left: 160px;
+}
+
+.project-home-pic {
+  position: relative;
+  right: 280px;
+  width: 100%;
+  height: auto;
+}
+
+.project-home-pic-div {
+  position: absolute;
+  margin-top: 190px;
+}
+
+/* SECTION 5 */
+#projectFOUR {
+  height: vh100;
+  margin-top: 600px;
+}
+
+.groceries-header {
+  font-style: normal;
+  font-weight: 700;
+}
+
+.groceries-Bar {
+  width: 60px;
+  height: 4px;
+  background-color: #E36B74;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 300px;
+}
+
+.groceries-body {
+  font-style: normal;
+  font-weight: 400;
+  max-width: 250px;
+  padding-top: 30px;
+}
+
+.groceries-link {
+  font-style: italic;
+  font-weight: 300;
+  margin-left: 160px;
+}
+
+.project-groceries-pic-div {
+  position: absolute;
+  margin-top: 190px;
+}
+
+.project-groceries-pic {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+/* SECTION 6 */
+#projectFIVE {
+  height: vh100;
+  margin-top: 600px;
+}
+
+.friend-header {
+  font-style: normal;
+  font-weight: 700;
+}
+
+.friend-Bar {
+  width: 60px;
+  height: 4px;
+  background-color: #E87373;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.friend-body {
+  font-style: normal;
+  font-weight: 400;
+  max-width: 250px;
+  padding-top: 30px;
+}
+
+.friend-link {
+  font-style: italic;
+  font-weight: 300;
+  margin-left: 160px;
+}
+
+.project-friend-pic {
+  position: relative;
+  right: 280px;
+  width: 100%;
+  height: auto;
+}
+
+.project-friend-pic-div {
+  position: absolute;
+  margin-top: 190px;
+}
+
+/* SECTION 6 */
+#misc {
+  height: vh100;
+  margin-top: 600px;
+}
+
+.misc-header {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+
+.misc-body {
+  padding-top: 25px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contact-Bar {
+  width: 1100px;
+  height: 4px;
+  background-color: #FFAF59;
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+#contact {
+  height: vh100;
+  margin-top: 800px;
+}
+
+.contact-header-big {
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contact-header-small {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contact-detailedWork {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.contact-email {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+}
+
+.contact-secondPart {
+  margin-top: 25px;
+}
+
+.contact-icon {
+  font-size: 30px;
+  margin-left: 500px;
+  margin-top: 25px;
+}
+
+.linkedin {
+  display: inline-block;
+}
+
+.instagram {
+  float: right;
+  margin-left: 50px;
+}
+
+/* media queries */
+@media (min-width: 576px) {
+  .about-content>p {
+    font-size: 10px;
+  }
+
+  .about-content>h1 {
+    font-size: 20px;
+  }
+
+  .project-autonomous>p {
+    font-size: 8px;
+  }
+
+  .project-wellness>p {
+    font-size: 8px;
+  }
+
+  .project-wellness>h1 {
+    font-size: 20px;
+  }
+
+  .project-autonomous>h1 {
+    font-size: 20px;
+  }
+
+  .project-autonomous-pic-div>img {
+    margin-top: 25px;
+  }
+
+  .project-autonomous>a {
+    font-size: 8px;
+    position: relative;
+    top: -30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-content>p {
+    font-size: 12px;
+  }
+
+  .about-content>h1 {
+    font-size: 30px;
+  }
+
+  .project-autonomous>p {
+    font-size: 10px;
+  }
+
+  .project-autonomous>h1 {
+    font-size: 30px;
+  }
+
+  .project-wellness>p {
+    font-size: 10px;
+  }
+
+  .project-wellness>h1 {
+    font-size: 30px;
+  }
+
+  .project-autonomous>a {
+    font-size: 8px;
+  }
+
+  .project-autonomous-pic-div>img {
+    margin-left: 160px;
+    margin-top: -25px;
+  }
+}
+
+@media (min-width: 992px) {
+  .about-content>p {
+    font-size: 14px;
+  }
+
+  .about-content>h1 {
+    font-size: 40px;
+  }
+
+  .project-autonomous>p {
+    font-size: 12px;
+  }
+
+  .project-autonomous>a {
+    font-size: 10px;
+  }
+
+  .project-wellness>p {
+    font-size: 12px;
+  }
+
+  .project-wellness>h1 {
+    font-size: 10px;
+  }
+
+  .project-autonomous>h1 {
+    font-size: 40px;
+  }
+
+  .project-autonomous-pic-div>img {
+    margin-left: 60px;
+    margin-top: -25px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about-content>p {
+    font-size: 18px;
+  }
+
+  .about-content>h1 {
+    font-size: 50px;
+  }
+
+  /* PROJECT AUTONOMOUS */
+  .project-autonomous>p {
+    font-size: 16px;
+  }
+
+  .project-autonomous>h1 {
+    font-size: 50px;
+  }
+
+  .project-autonomous>a {
+    font-size: 14px;
+  }
+
+  .project-autonomous-pic-div>img {
+    width: 800px;
+    height: 500px;
+  }
+
+  /* PROJECT WELLNESS */
+  .project-wellness>p {
+    font-size: 16px;
+    position: relative;
+    left: 300px;
+  }
+
+  .project-wellness>h1 {
+    font-size: 50px;
+    position: relative;
+    left: 300px;
+  }
+
+  .project-wellness>a {
+    font-size: 14px;
+    position: relative;
+    left: 300px;
+  }
+
+  .project-wellness-pic-div>img {
+    width: 800px;
+    height: 500px;
+  }
+
+  /* PROJECT HOME AUTOMATION */
+  .project-home>p {
+    font-size: 16px;
+  }
+
+  .project-home>h1 {
+    font-size: 50px;
+  }
+
+  .project-home>a {
+    font-size: 14px;
+  }
+
+  .project-home-pic-div>img {
+    width: 800px;
+    height: 500px;
+  }
+
+  /* PROJECT GROCERIES */
+  .project-groceries>p {
+    font-size: 16px;
+    position: relative;
+    left: 300px;
+  }
+
+  .project-groceries>h1 {
+    font-size: 50px;
+    position: relative;
+    left: 300px;
+  }
+
+  .project-groceries>a {
+    font-size: 14px;
+    position: relative;
+    left: 300px;
+  }
+
+  .project-groceries-pic-div>img {
+    width: 800px;
+    height: 500px;
+  }
+
+  /* PROJECT FRIEND */
+  .project-friend>p {
+    font-size: 16px;
+  }
+
+  .project-friend>h1 {
+    font-size: 50px;
+  }
+
+  .project-friend>a {
+    font-size: 14px;
+  }
+
+  .project-friend-pic-div>img {
+    width: 800px;
+    height: 500px;
+  }
+
+  .misc-section>h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+  }
+}
