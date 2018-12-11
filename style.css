@@ -209,6 +209,16 @@ align-items: left;
   font-weight: 400;
   margin-top: 60px;
 }
+.about-content-paragraph2 {
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.about-content-paragraph3 {
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 10px;
+}
 
 .card.about-card {
   border: none;
@@ -443,7 +453,7 @@ align-items: left;
   margin-top: 190px;
 }
 
-/* SECTION 6 */
+/* SECTION 7 */
 #misc {
   height: vh100;
   margin-top: 600px;
